@@ -1,0 +1,24 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 75px auto;
+  margin: 0;
+}
+#header{
+  background-color: lightblue;
+  grid-row: 1;
+  grid-column: 1;
+  margin: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px purple;
+}
+#choice{
+  padding: 10px;
+  background-color: rgb(100,150,200);
+}
+div{
+  border: 2px solid white;
+}

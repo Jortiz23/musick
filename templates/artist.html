@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="/styles/artist.css" rel = "stylesheet">
+  </head>
+  <body>
+    <div id="header">
+    <h1>{{ name }}'s Page</h1>
+  </div>
+    <div id="media">
+      <p><img src="/media/{{ image }}"></p>
+      <p>My personal favorite song:</p>
+      <iframe src="https://open.spotify.com/embed/track/{{ spotify_link }}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div id="more">
+      <p>More songs by this artist:</p>
+      <iframe src="https://open.spotify.com/embed/artist/{{ artist_link }}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<a class="twitter-timeline" href= {{ spotify_link }} </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>    </div>
+  </body>
+</html>
